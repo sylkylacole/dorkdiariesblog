@@ -1,0 +1,76 @@
+/* Global css */
+
+:root {
+    --header: #fbced4;
+    --background: #FBF2E9;
+    --text: #252222;
+    --white: #FBFBFB;
+}
+
+@font-face {
+    font-family: "Atop";
+    src: url(font/Atop.ttf); format: ("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dork-Diaries";
+    src: url(font/Dork-Diaries.ttf);
+    font-style: normal;
+}
+
+/* Universal css */
+
+* {
+    font-family: Atop, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+body {
+    margin: 1%;
+}
+
+h2 {
+    color: var(--header);
+    display: block;
+    font-size: 7rem;
+    letter-spacing: 2rem;
+    word-spacing: 5rem;
+    text-align: center;
+    margin: 0%;
+}
+
+h1 {
+    display: inline;
+    position: absolute;
+    left: 30%;
+    color: var(--header);
+    font-size: 15rem;
+    letter-spacing: 2rem;
+    text-align: center;
+    margin: 0%;
+}
+
+ul {
+    position: absolute;
+    display: inline;
+    top: 60%;
+    left: 32%;
+
+}
+
+li {
+    font-family: Dork-Diaries, sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    list-style-image: url("images/bullet.png");
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: -5.5%;
+    width: 30%;
+    height: 50%;
+}
