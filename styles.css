@@ -19,10 +19,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Super Serene";
+    src: url(font/Super\ Serene.ttf);
+    font-style: normal;
+}
+
 /* Universal css */
 
 * {
-    font-family: Atop, sans-serif;
+    font-family: Super Serene, sans-serif;
     background-color: var(--background);
     color: var(--text);
 }
@@ -53,6 +59,7 @@ h1 {
 }
 
 ul {
+    font-family: Dork-Diaries, sans-serif;
     position: absolute;
     display: inline;
     top: 60%;
@@ -74,3 +81,21 @@ img {
     width: 30%;
     height: 50%;
 }
+
+
+/* Text outline */
+
+h1 {
+    text-shadow:
+      -10px -10px 0 #000,
+      10px -10px 0 #000,
+      -10px 10px 0 #000,
+      10px 10px 0 #000;
+  }
+h2 {
+    text-shadow:
+      -5px -5px 0 #000,
+      5px -5px 0 #000,
+      -5px 5px 0 #000,
+      5px 5px 0 #000;
+  }
